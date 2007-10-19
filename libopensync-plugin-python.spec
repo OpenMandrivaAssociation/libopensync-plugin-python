@@ -1,5 +1,5 @@
 %define name	libopensync-plugin-python
-%define version	0.22
+%define version	0.33
 %define release %mkrel 1
 
 Name: 	 	%{name}
@@ -9,7 +9,7 @@ Summary: 	Python plugin for opensync synchronization tool
 License:	GPL
 Group:		Office
 URL:		http://www.opensync.org
-Source:		svn://svn.opensync.org/plugins/syncml/%{name}-%{version}.tar.bz2
+Source:		 http://www.opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	opensync-devel >= %{version}
 BuildRequires:	fam-devel
 Obsoletes:	multisync-backup
