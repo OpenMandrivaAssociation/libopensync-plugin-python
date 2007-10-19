@@ -14,6 +14,7 @@ BuildRequires:	opensync-devel >= %{version}
 BuildRequires:	fam-devel
 Obsoletes:	multisync-backup
 Provides:	multisync-backup
+Obsoletes:	libopensync-python
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
