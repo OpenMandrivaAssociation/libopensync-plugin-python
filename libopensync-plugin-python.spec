@@ -1,6 +1,6 @@
 %define name	libopensync-plugin-python
 %define version	0.33
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: 	 	%{name}
 Version: 	%{version}
@@ -15,7 +15,6 @@ BuildRequires:	fam-devel
 %py_requires -d
 Obsoletes:	multisync-backup
 Provides:	multisync-backup
-Obsoletes:	libopensync-python
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
