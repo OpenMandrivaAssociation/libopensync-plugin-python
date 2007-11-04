@@ -44,3 +44,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc AUTHORS
 %{_libdir}/opensync/plugins/*
+%{_libdir}/opensync/python-plugins/*.py
