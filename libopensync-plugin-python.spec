@@ -16,7 +16,6 @@ BuildRequires:	cmake
 %py_requires -d
 Obsoletes:	multisync-backup
 Provides:	multisync-backup
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This plugin allows applications using OpenSync to synchronise to and from
