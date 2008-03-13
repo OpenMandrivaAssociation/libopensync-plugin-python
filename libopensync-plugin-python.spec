@@ -1,7 +1,7 @@
 Name: 	 	libopensync-plugin-python
 Version: 	0.22
 Epoch:		1
-Release: 	%{mkrel 2}
+Release: 	%{mkrel 3}
 Summary: 	Python plugin for OpenSync synchronization framework
 License:	LGPLv2+
 Group:		Office
@@ -30,6 +30,10 @@ files stored on disk.
 rm -rf %{buildroot}
 %makeinstall_std
 
+# Remove the sample plugin, it just messes up GUIs like multisync
+# - AdamW 2008/03
+rm -f %{buildroot}%{_libdir}/opensync/python-plugins/*
+
 %find_lang %{name}
 
 %clean
@@ -39,5 +43,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc AUTHORS
 %{_libdir}/opensync/plugins/*
-%{_libdir}/opensync/python-plugins/*
+%{_libdir}/opensync/python-plugins
 
