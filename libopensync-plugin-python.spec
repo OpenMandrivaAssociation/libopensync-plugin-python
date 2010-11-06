@@ -1,7 +1,7 @@
 Name: 	 	libopensync-plugin-python
 Version: 	0.22
 Epoch:		1
-Release: 	%{mkrel 5}
+Release: 	%{mkrel 6}
 Summary: 	Python plugin for OpenSync synchronization framework
 License:	LGPLv2+
 Group:		Office
