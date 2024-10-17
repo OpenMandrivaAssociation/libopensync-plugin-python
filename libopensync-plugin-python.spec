@@ -5,7 +5,7 @@ Release: 	%{mkrel 6}
 Summary: 	Python plugin for OpenSync synchronization framework
 License:	LGPLv2+
 Group:		Office
-URL:		http://www.opensync.org
+URL:		https://www.opensync.org
 Source:		http://www.opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	libopensync-devel < 0.30
 BuildRequires:	fam-devel
